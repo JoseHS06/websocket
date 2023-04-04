@@ -1,5 +1,5 @@
 import axios from 'axios';
-const url = 'http://localhost/inolab-api-app/validateToken';
+const url = 'https://inolab.com/inolab-api-app/validateToken';
 
 export const auth = (socket, next) => {
     const { token } = socket.handshake.auth;
